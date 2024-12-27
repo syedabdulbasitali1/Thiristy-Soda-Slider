@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Soda Slider Effect</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <header>
+
+        <nav>
+                <div class="left">
+                <span>Home</span>
+                <span>Contact</span>
+            </div>
+            <div class="title">
+                <h2>THIRISTY</h2>
+            </div>
+<div class="nav-items">
+                <details>
+                    <summary>
+                        <i class="ri-menu-4-fill"></i>
+                    </summary>
+                    <ul>
+                        <li> <img src="./images/cart-icon.svg" alt="">Home</li>
+                        <li><img src="./images/question-mark.svg" alt="">Contact</li>
+                        <li><img src="./images/report-icon.svg" alt="">About</li>
+                        <li><img src="./images/report-icon.svg" alt="">Login</li>
+                    </ul>
+                </details>
+            </div>
+
+
+                <div class="right">
+                    <span>About</span>
+                <span>Login</span>
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- carousel -->
+     <div class="carousel">
+        <div class="list">
+
+            <div class="item active" style=" --bg-image: linear-gradient( 143.3deg,  rgba(216,27,96,1) 33.1%, rgba(237,107,154,1) 74.9% );">
+                <div class="content" style="color: rgb(248, 211, 218);">
+                    strawberry
+                </div>
+                <img src="./images/fruit_strawberry.png" alt="strawberry" class="fruit">
+            </div>
+
+            <div class="item" style="--bg-image: linear-gradient( 109.6deg,  rgba(33,103,43,1) 11.3%, rgba(117,162,61,1) 91.1% );">
+                <div class="content" style="color: #90af44;">
+                    avocado
+                </div>
+                <img src="./images/fruit_avocado.png" alt="avocado" class="fruit">
+            </div>
+
+            <div class="item hidden" style="--bg-image: linear-gradient( 109.6deg,  rgba(255,115,68,1) 11.2%, rgba(244,255,32,1) 100.6% );">
+                <div class="content" style="color: rgb(253, 87, 27);">
+                    orange
+                </div>
+                <img src="./images/fruit_orange.png" alt="orange" class="fruit">
+            </div>
+
+        </div>
+        <div class="leaves"></div>
+        <div class="mockup"></div>
+        <div class="shadow"></div>
+        <div class="arrow">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+     </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
